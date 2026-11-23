@@ -1,0 +1,10 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PDFs originales (muy pesados)
+*.pdf
+
+# Temp
+pdf_pages/

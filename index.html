@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agua Mía - Refresca tu vida | Tarija, Bolivia</title>
+    <meta name="description" content="Agua Mía - Agua purificada y jugos naturales en Tarija, Bolivia. Botellones, packs y dispensadores. Pedidos por WhatsApp.">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="assets/img/logo.png" alt="Agua Mía" class="loader-logo">
+            <div class="loader-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="nav-logo">
+                <img src="assets/img/logo.png" alt="Agua Mía Logo">
+                <span class="logo-text">Agua <em>Mía</em></span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#jugos" class="nav-link">Jugos</a></li>
+                <li><a href="#dispensadores" class="nav-link">Dispensadores</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li>
+                    <a href="https://wa.me/59169326550?text=Hola%20Agua%20M%C3%ADa%2C%20quiero%20hacer%20un%20pedido" 
+                       class="nav-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> Pedir Ahora
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <div class="bubble bubble-1"></div>
+            <div class="bubble bubble-2"></div>
+            <div class="bubble bubble-3"></div>
+            <div class="bubble bubble-4"></div>
+            <div class="bubble bubble-5"></div>
+            <div class="bubble bubble-6"></div>
+            <div class="wave-bottom">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="#ffffff"/>
+                </svg>
+            </div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">🌿 100% Purificada</span>
+                <h1>Cada día comienza con una <span class="highlight">mejor elección</span></h1>
+                <p class="hero-subtitle font-script">Refresca tu vida</p>
+                <p class="hero-desc">Agua purificada de la más alta calidad, directo a tu hogar en Tarija. Hidratación pura para toda tu familia.</p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/59169326550?text=Hola%20Agua%20M%C3%ADa%2C%20quiero%20hacer%20un%20pedido" 
+                       class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> Hacer Pedido
+                    </a>
+                    <a href="#productos" class="btn btn-outline btn-lg">
+                        <i class="fas fa-box-open"></i> Ver Productos
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="1000">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Familias felices</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="20">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Productos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="5">0</span>
+                        <span class="stat-label">Años de experiencia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrapper">
+                    <img src="assets/img/botellon-azul-producto.png" alt="Botellón Agua Mía" class="hero-bottle floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conócenos</span>
+                <h2>¿Por qué elegir <span class="highlight">Agua Mía</span>?</h2>
+                <p class="section-desc">Somos tu mejor opción en agua purificada y jugos naturales en Tarija</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Agua Pura</h3>
+                    <p>Proceso de purificación con la más alta tecnología para garantizar agua cristalina y segura.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Delivery Rápido</h3>
+                    <p>Entrega a domicilio en toda la ciudad de Tarija. Puntualidad y compromiso garantizados.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Botellones retornables que cuidan el medio ambiente. ¡Elige el color que más te guste!</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Calidad Certificada</h3>
+                    <p>Cumplimos con todos los estándares de calidad. Tu salud es nuestra prioridad.</p>
+                </div>
+            </div>
+            <div class="values-banner">
+                <div class="value-item">
+                    <i class="fas fa-clock"></i>
+                    <span>PUNTUALIDAD</span>
+                </div>
+                <div class="value-divider">•</div>
+                <div class="value-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>ORDEN</span>
+                </div>
+                <div class="value-divider">•</div>
+                <div class="value-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>COMPROMISO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Gallery Section -->
+    <section class="section catalog" id="catalogo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Catálogo Completo</span>
+                <h2>Explora nuestro <span class="highlight">Catálogo</span></h2>
+                <p class="section-desc">Descarga o revisa las imágenes del catálogo de productos de Agua Mía.</p>
+            </div>
+            <div class="catalog-grid">
+                <img src="assets/img/catalog1.jpg" alt="Catálogo de agua purificada, botellones, packs y sachets" loading="lazy">
+                <img src="assets/img/catalog2.jpg" alt="Catálogo de jugos de naranja y durazno Mía Fresh" loading="lazy">
+                <img src="assets/img/catalog3.jpg" alt="Catálogo de dispensadores y combo con botellón" loading="lazy">
+            </div>
+        </div>
+    </section>
+    <section class="section products" id="productos">
+        <div class="products-bg">
+            <div class="wave-top">
+                <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                    <path d="M0,60 C360,0 720,120 1080,60 C1260,30 1380,40 1440,60 L1440,0 L0,0 Z" fill="#ffffff"/>
+                </svg>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Catálogo 2026</span>
+                <h2>Agua <span class="highlight-light">Purificada</span></h2>
+                <p class="section-desc light">La mejor agua para tu hogar y tu familia</p>
+            </div>
+
+            <!-- Botellones Retornables -->
+            <h3 class="category-title"><i class="fas fa-recycle"></i> Botellones Retornables</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge premium">Premium</div>
+                    <div class="product-img">
+                        <img src="assets/img/botellon-alcalino.png" alt="Botellón Alcalino 20L">
+                    </div>
+                    <div class="product-info">
+                        <h4>Alcalino 20L</h4>
+                        <p class="product-desc">Agua alcalina para un estilo de vida saludable</p>
+                        <div class="product-price">Bs. 25</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20un%20Botell%C3%B3n%20Alcalino%2020L%20(Bs.%2025)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge popular">Popular</div>
+                    <div class="product-img">
+                        <img src="assets/img/botellon-clasico.png" alt="Botellón Clásico 20L">
+                    </div>
+                    <div class="product-info">
+                        <h4>Clásico 20L</h4>
+                        <p class="product-desc">El favorito de siempre, pura frescura</p>
+                        <div class="product-price">Bs. 17</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20un%20Botell%C3%B3n%20Cl%C3%A1sico%2020L%20(Bs.%2017)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/botellon-mediano.png" alt="Botellón Mediano 10-12L">
+                    </div>
+                    <div class="product-info">
+                        <h4>Mediano 10 y 12L</h4>
+                        <p class="product-desc">Tamaño ideal para oficinas y hogares pequeños</p>
+                        <div class="product-price">Bs. 11</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20un%20Botell%C3%B3n%20Mediano%2010-12L%20(Bs.%2011)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Packs de Botellas -->
+            <h3 class="category-title"><i class="fas fa-box"></i> Packs de Botellas</h3>
+            <div class="products-grid four-cols">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/pack-5litros.png" alt="Pack 5 Litros">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack 5 Litros</h4>
+                        <p class="product-desc">2 unidades</p>
+                        <div class="product-price">Bs. 22</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%205%20Litros%20(Bs.%2022)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/pack-3litros.png" alt="Pack 3 Litros">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack 3 Litros</h4>
+                        <p class="product-desc">6 unidades</p>
+                        <div class="product-price">Bs. 40</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%203%20Litros%20(Bs.%2040)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge popular">Popular</div>
+                    <div class="product-img">
+                        <img src="assets/img/pack-2litros.png" alt="Pack 2 Litros">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack 2 Litros</h4>
+                        <p class="product-desc">6 unidades</p>
+                        <div class="product-price">Bs. 35</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%202%20Litros%20(Bs.%2035)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="assets/img/pack-1litro.png" alt="Pack 1 Litro">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack 1 Litro</h4>
+                        <p class="product-desc">6 unidades</p>
+                        <div class="product-price">Bs. 20</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%201%20Litro%20(Bs.%2020)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pack Personal y Sachets -->
+            <div class="products-grid two-cols">
+                <div class="product-card horizontal">
+                    <div class="product-img">
+                        <img src="assets/img/pack-personal.png" alt="Pack Personal 600ml">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack Personal</h4>
+                        <p class="product-desc">600 ml - 12 unidades. Perfecto para llevar contigo.</p>
+                        <div class="product-price">Bs. 35</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%20Personal%20600ml%20(Bs.%2035)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card horizontal">
+                    <div class="product-img">
+                        <img src="assets/img/sachets-agua.png" alt="Sachets de Agua">
+                    </div>
+                    <div class="product-info">
+                        <h4>Sachets de Agua</h4>
+                        <p class="product-desc">26 unidades. Ideal para eventos y reuniones.</p>
+                        <div class="product-price">Bs. 13</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Sachets%20de%20Agua%20(Bs.%2013)" 
+                           class="btn btn-whatsapp" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colores -->
+            <div class="colors-banner">
+                <div class="colors-text">
+                    <h3>¡Elige el color que quieras!</h3>
+                    <p>Nuestros botellones vienen en diferentes colores para que combines con tu estilo</p>
+                    <div class="color-options">
+                        <span class="color-dot" style="background: #2196F3;" title="Azul"></span>
+                        <span class="color-dot" style="background: #4CAF50;" title="Verde"></span>
+                        <span class="color-dot" style="background: #E91E63;" title="Rosado"></span>
+                        <span class="color-dot" style="background: #9C27B0;" title="Morado"></span>
+                    </div>
+                </div>
+                <div class="colors-img">
+                    <img src="assets/img/botellones-colores.png" alt="Botellones de colores">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jugos Section -->
+    <section class="section jugos" id="jugos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag orange">🍊 Mia Fresh</span>
+                <h2>Jugos <span class="highlight-orange">100% Sabor Natural</span></h2>
+                <p class="section-desc">Selección Natural - Naranja y Durazno</p>
+            </div>
+
+            <div class="jugos-showcase">
+                <div class="jugos-hero-img">
+                    <img src="assets/img/mia-fresh-banner.png" alt="Mia Fresh Jugos Naturales">
+                </div>
+            </div>
+
+            <h3 class="category-title orange"><i class="fas fa-users"></i> Packs Familiares</h3>
+            <div class="products-grid three-cols">
+                <div class="product-card jugo-card">
+                    <div class="product-img">
+                        <img src="assets/img/jugo-botellas.png" alt="Pack 3 Litros Jugo">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack 3 Litros</h4>
+                        <p class="product-desc">Naranja / Durazno - 6 Unidades</p>
+                        <div class="product-price orange">Bs. 62</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%20Jugo%203%20Litros%20(Bs.%2062)" 
+                           class="btn btn-whatsapp-orange" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card jugo-card">
+                    <div class="product-img">
+                        <img src="assets/img/jugo-botellas2.png" alt="Pack 2 Litros Jugo">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack 2 Litros</h4>
+                        <p class="product-desc">Naranja / Durazno - 6 Unidades</p>
+                        <div class="product-price orange">Bs. 52</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%20Jugo%202%20Litros%20(Bs.%2052)" 
+                           class="btn btn-whatsapp-orange" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card jugo-card">
+                    <div class="product-img">
+                        <img src="assets/img/jugo-1litro.png" alt="Botellas de jugo Mía Fresh de 1 litro, naranja y durazno">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack 1 Litro</h4>
+                        <p class="product-desc">Naranja / Durazno - 6 Unidades</p>
+                        <div class="product-price orange">Bs. 33</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%20Jugo%201%20Litro%20(Bs.%2033)" 
+                           class="btn btn-whatsapp-orange" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="category-title orange"><i class="fas fa-child"></i> Infantil e Individual</h3>
+            <div class="products-grid two-cols">
+                <div class="product-card jugo-card horizontal">
+                    <div class="product-img">
+                        <img src="assets/img/jugo-osito.png" alt="Pack Ositos">
+                    </div>
+                    <div class="product-info">
+                        <h4>Pack Ositos - KIDS 2026</h4>
+                        <p class="product-desc">290 ml - 6 Unidades. Naranja / Durazno. ¡Los favoritos de los niños!</p>
+                        <div class="product-price orange">Bs. 16</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Pack%20Ositos%20Kids%20(Bs.%2016)" 
+                           class="btn btn-whatsapp-orange" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+                <div class="product-card jugo-card horizontal">
+                    <div class="product-img">
+                        <img src="assets/img/sachets-jugo.png" alt="Sachets de jugo Mía Fresh">
+                    </div>
+                    <div class="product-info">
+                        <h4>Sachets de Jugo</h4>
+                        <p class="product-desc">Pack 12 Unidades. Naranja / Durazno. Práctico y económico.</p>
+                        <div class="product-price orange">Bs. 10</div>
+                        <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20Sachets%20de%20Jugo%20(Bs.%2010)" 
+                           class="btn btn-whatsapp-orange" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> Pedir
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dispensadores Section -->
+    <section class="section dispensadores" id="dispensadores">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Accesorios</span>
+                <h2><span class="highlight">Dispensadores</span></h2>
+                <p class="section-desc">Todo lo que necesitas para disfrutar tu agua cómodamente</p>
+            </div>
+            <div class="dispensadores-grid">
+                <div class="dispensador-card">
+                    <img class="dispensador-foto" src="assets/img/dispensador-plastico.png" alt="Dispensadores plásticos azul y blanco">
+                    <h4>Dispensador Plástico</h4>
+                    <p>Práctico y ligero para cualquier espacio</p>
+                    <div class="dispensador-price">Bs. 50</div>
+                    <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20pedir%20un%20Dispensador%20Pl%C3%A1stico%20(Bs.%2050)" 
+                       class="btn btn-whatsapp" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> Pedir
+                    </a>
+                </div>
+                <div class="dispensador-card featured">
+                    <div class="dispensador-badge">Combo</div>
+                    <img class="dispensador-foto" src="assets/img/dispensador-combo.png" alt="Botellón PET montado sobre el dispensador blanco">
+                    <h4>Botellón PET + Recarga + Dispensador</h4>
+                    <p>¡El combo completo para empezar!</p>
+                    <div class="dispensador-price">Bs. 117</div>
+                    <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20el%20combo%20Botell%C3%B3n%20%2B%20Recarga%20%2B%20Dispensador%20(Bs.%20117)" 
+                       class="btn btn-whatsapp" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> Pedir Combo
+                    </a>
+                </div>
+                <div class="dispensador-card">
+                    <img class="dispensador-foto" src="assets/img/dispensador-plastico.png" alt="Modelo de dispensador plástico disponible en préstamo">
+                    <h4>Préstamo de Equipo</h4>
+                    <p>Préstamo del dispensador con garantía</p>
+                    <div class="dispensador-price">Garantía Bs. 60</div>
+                    <a href="https://wa.me/59169326550?text=Hola%2C%20quiero%20consultar%20sobre%20el%20pr%C3%A9stamo%20de%20equipo" 
+                       class="btn btn-whatsapp" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> Consultar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family CTA Section -->
+    <section class="section family-cta">
+        <div class="family-bg">
+            <img src="assets/img/familia-hero.jpeg" alt="La Familia Agua Mía">
+            <div class="family-overlay"></div>
+        </div>
+        <div class="container family-content">
+            <h2>La Familia Mía</h2>
+            <p class="font-script family-subtitle">Frescura y Vitalidad para Cada Momento</p>
+            <p>Únete a las miles de familias tarijeñas que confían en Agua Mía</p>
+            <a href="https://wa.me/59169326550?text=Hola%20Agua%20M%C3%ADa%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20productos" 
+               class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i> Contáctanos
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contáctanos</span>
+                <h2>Haz tu <span class="highlight">Pedido</span></h2>
+                <p class="section-desc">Estamos aquí para atenderte, ¡escríbenos por WhatsApp!</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card whatsapp-main">
+                    <div class="contact-icon-big">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>¡La forma más rápida de hacer tu pedido!</p>
+                    <div class="phone-numbers">
+                        <a href="https://wa.me/59169326550?text=Hola%20Agua%20M%C3%ADa%2C%20quiero%20hacer%20un%20pedido" 
+                           class="phone-link main" target="_blank" rel="noopener">
+                            <i class="fab fa-whatsapp"></i> 69326550
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Cobertura</h3>
+                    <p>Tarija - Bolivia</p>
+                    <p class="contact-detail">Delivery en toda la ciudad</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Horarios</h3>
+                    <p>Lunes a Sábado</p>
+                    <p class="contact-detail">¡Haz tu pedido cuando quieras!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,40 C480,120 960,0 1440,80 L1440,0 L0,0 Z" fill="#f0f7ff"/>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo.png" alt="Agua Mía">
+                        <span class="logo-text">Agua <em>Mía</em></span>
+                    </div>
+                    <p class="font-script footer-slogan">Refresca tu vida</p>
+                    <p>Agua purificada y jugos naturales de la más alta calidad en Tarija, Bolivia.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#jugos">Jugos</a></li>
+                        <li><a href="#dispensadores">Dispensadores</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Productos</h4>
+                    <ul>
+                        <li><a href="#productos">Botellones 20L</a></li>
+                        <li><a href="#productos">Packs de Botellas</a></li>
+                        <li><a href="#productos">Sachets de Agua</a></li>
+                        <li><a href="#jugos">Jugos Mia Fresh</a></li>
+                        <li><a href="#dispensadores">Dispensadores</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <a href="https://wa.me/59169326550?text=Hola%20Agua%20M%C3%ADa" 
+                       class="btn btn-whatsapp-footer" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i> 69326550
+                    </a>
+                    <p><i class="fas fa-map-marker-alt"></i> Tarija, Bolivia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agua Mía. Todos los derechos reservados.</p>
+                <p>Página web realizada por Julian Rueda.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/59169326550?text=Hola%20Agua%20M%C3%ADa%2C%20quiero%20hacer%20un%20pedido" 
+       class="whatsapp-float" target="_blank" rel="noopener" title="Escríbenos por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¡Haz tu pedido!</span>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
